@@ -142,13 +142,19 @@ echo $res;
 
 // или
 
-$i=0;
-for (; ;) { 
-  echo 'helo<br>';
+// $i=0;
+// for (; ;) { 
+//   echo 'helo<br>';
 
-  $i++;
+//   $i++;
 
-  if ($i === 10) break;
+//   if ($i === 10) break;
+// }
+error_reporting (-1);
+
+$args=['1', '2', '3', '4'];
+
+for($i=0; $i<count($args); $i++){
+    echo $args[$i] . '<br>';
 }
-
 ?>
