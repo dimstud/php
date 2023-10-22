@@ -152,9 +152,15 @@ echo $res;
 // }
 error_reporting (-1);
 
-$args=['1', '2', '3', '4'];
+// $args=['1', '2', '3', '4'];
 
-for($i=0; $i<count($args); $i++){
-    echo $args[$i] . '<br>';
+// for($i=0; $i<count($args); $i++){
+//     echo $args[$i] . '<br>';
+// }
+
+$i = 1;
+
+while ($i <= 10) {
+    echo $i . '<br>';
+    $i++;
 }
-?>
