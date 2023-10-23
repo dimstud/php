@@ -158,9 +158,76 @@ error_reporting (-1);
 //     echo $args[$i] . '<br>';
 // }
 
-$i = 1;
 
-while ($i <= 10) {
-    echo $i . '<br>';
-    $i++;
+
+// Циклы
+
+// $i = 1;
+
+// while ($i <= 10) {
+//     echo $i . '<br>';
+//     $i++;
+// }
+
+// echo "<br> <br>";
+
+// $j = 10;
+
+// while($j >= 1) {
+//   echo "{$j} <br>";
+//   $j--;
+// }
+
+
+// $c = 4;
+// $r = 3;
+
+// $i = 1;
+// echo "<table border=\"1\">";
+//     while($i <= $r){
+//         echo "<tr>";
+//             $j = 1;
+//             while($j <= $c){
+//                 echo "<td> Строка: {$i}. Столбец: {$j} </td>";
+//                 $j++;
+//             }
+//         echo "</tr>";
+//         $i++;
+//     }
+// echo "</table>";
+
+// $year = 1922;
+// $yearEnd = 2022;
+
+// echo "<select>";
+//     while($year <= $yearEnd){
+//         echo "<option value = {$year}>{$year}</option>";
+//         $year++;
+//     }
+// echo "</select>";
+
+// $i = 11;
+
+// do {
+//     echo "{$i} <br>";
+//     $i++;
+// } while ($i <= 10);
+
+// $names = ['Alex', 'Cris', 'Tim', 'Tom'];
+
+// foreach($names as $name){
+//     echo "{$name} <br>";
+// }
+
+
+$container = [
+    'Alex' => 21,
+    'Cris' => 22,
+    'Tim' => 20,
+    'Tom' => 32,
+];
+
+foreach($container as $key => $item){
+    echo "{$key}: {$item} лет <br>";
 }
+?>
