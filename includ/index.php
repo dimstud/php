@@ -18,16 +18,18 @@
         require_once 'templates/header.php';
 
 
-        $x = 2;
-        $y = 4;
+        // $x = 2;
+        // $y = 4;
 
-        $res = sum($x,$y);
+        // $res = sum($x,$y);
 
-        echo $res . "<br>";
+        // echo $res . "<br>";
 
-        $resMin = minus($x,$y);
+        // $resMin = minus($x,$y);
 
-        echo $resMin . "<br>";
+        // echo $resMin . "<br>";
+
+        require_once 'includes/php_function.php';
 
 
 
