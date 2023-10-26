@@ -50,10 +50,44 @@
     // echo $res;
 
     // strtoupper strtolower - преобразует в верхний или в нижний регистр
+    // $mes = "Hello world!";
+
+    // $res = strtoupper($mes);
+    // echo $res;
+    // $res = strtolower($res);
+    // echo $res;
+
+
+
+    // mb_strlen - возвращает длину строки
+
+    // $mes = "Hello world!";
+    // $mes_ru = "Привет мир!";
+
+    // $res = mb_strlen($mes, 'utf-8');
+    // $res_ru = mb_strlen($mes_ru);
+    // echo "{$res} <br> {$res_ru}";
+
+
+
+    // mb_strpos - указывает на какокой позиции находится символъ
+
+    // $mes = "Hello world!";
+
+    // $res = mb_strpos($mes, 'H');
+    // if ($res !== false) {
+    //     echo "Данная буква находиться на позиции: {$res}";
+    // } else {
+    //     echo "Данная буква отсутствует.";
+    // }
+
+
+
+
+    // mb_substr - возвращает слово до конца, либо количество символлов с указаной позиции и количество символов
     $mes = "Hello world!";
 
-    $res = strtoupper($mes);
-    echo $res;
-    $res = strtolower($res);
-    echo $res;
+    $res = mb_substr($mes, 2, 5);
+    var_dump($res);
+
 ?>
