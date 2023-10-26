@@ -85,9 +85,27 @@
 
 
     // mb_substr - возвращает слово до конца, либо количество символлов с указаной позиции и количество символов
-    $mes = "Hello world!";
+    // $mes = "Hello world!";
 
-    $res = mb_substr($mes, 2, 5);
-    var_dump($res);
+    // $res = mb_substr($mes, 2, 5);
+    // var_dump($res);
 
+
+
+
+
+
+    // Date
+
+    // date('Y-m-d H:i:s') - вывовит время на сервере
+    // echo date('Y-m-d H:i:s') . "<br>";
+    // echo time() . "<br>";
+    // echo date("Y-m-d H:i:s", time()) . "<br>";
+    // echo date("Y-m-d H:i:s", time() - 60*60*24*5) . "<br>"; // -5 дней
+    // echo date_default_timezone_get() . '<br>';
+    // date_default_timezone_set('Europe/Moscow') . '<br>';
+    // echo date("Y-m-d H:i:s", time()) . "<br>";
+
+    echo microtime() . "<br>";
+    echo microtime(true);
 ?>
