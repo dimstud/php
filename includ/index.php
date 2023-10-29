@@ -29,9 +29,9 @@
 
         // echo $resMin . "<br>";
 
-        require_once 'includes/php_function.php';
+        // require_once 'includes/php_function.php';
 
-
+        require_once 'includes/get_post.php';
 
         require_once 'templates/footer.php';
     ?>
