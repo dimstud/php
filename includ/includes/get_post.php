@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
     $success = false;
     $contact_form = $_POST['contact_form'] ?? '';
 
@@ -44,4 +44,4 @@
         <p><label for="yes">Yes or No</label><input type="checkbox" id="yes" <?php if(isset($yes) && $yes == 'on') echo "checked"; ?> name="yes"></p>
         <button name="contact_form" value="submited">Send Contact</button>
     </form>
-<?php } ?>
+<?php } ?> -->
