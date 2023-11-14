@@ -4,6 +4,13 @@
     if (!empty($_FILES)) {
         move_uploaded_file($_FILES['file']['tmp_name'],'uploads/'.$_FILES['file']['name']);
     }
+
+    if (file_exists('uploads/dc.png')) {
+        echo "dc здесь!";
+    }
+
+    rmdir('test');
+    rename('uploads/dc.png', 'uploads/dc1.png');
 ?>
 
 <form method="POST" action="" enctype="multipart/form-data">
