@@ -1,4 +1,6 @@
-<?php require_once 'includes/math.php'; ?>
+<?php
+session_start();
+require_once 'includes/math.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -33,7 +35,8 @@
 
         // require_once 'includes/get_post.php';
 
-        require_once 'includes/files.php';
+        // require_once 'includes/files.php';
+        require_once 'includes/session.php';
 
         require_once 'templates/footer.php';
     ?>

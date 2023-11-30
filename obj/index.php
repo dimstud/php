@@ -219,7 +219,7 @@ error_reporting (-1);
 //     echo "{$name} <br>";
 // }
 
-
+/*
 $container = [
     'Alex' => 21,
     'Cris' => 22,
@@ -231,3 +231,9 @@ foreach($container as $key => $item){
     echo "{$key}: {$item} лет <br>";
 }
 ?>
+*/
+
+$arr = ['sa', 'er', 'we'];
+foreach ($arr as $i => $w) {
+    echo $i.': '.$w.'<br>';
+}
