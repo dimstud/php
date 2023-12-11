@@ -19,23 +19,6 @@ require_once 'includes/math.php'; ?>
 
         require_once 'templates/header.php';
 
-
-        // $x = 2;
-        // $y = 4;
-
-        // $res = sum($x,$y);
-
-        // echo $res . "<br>";
-
-        // $resMin = minus($x,$y);
-
-        // echo $resMin . "<br>";
-
-        // require_once 'includes/php_function.php';
-
-        // require_once 'includes/get_post.php';
-
-        // require_once 'includes/files.php';
         require_once 'includes/session.php';
 
         require_once 'templates/footer.php';
